@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-hr{
+.header hr{
     display:inline-block;
     width: 1px;
     height: 30px;
@@ -71,6 +71,78 @@ hr{
 .main_post{
     grid-area: 2 / 1 / 6 / 4;
     background-color:#eaeaea;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    flex-wrap:nowrap;
+}
+.post{
+    width: 90%;
+    height: 90%;
+    border-style: solid 2px;
+    border-color: #ccc;
+    box-shadow: 0px 0px 10px rgb(221, 221, 221);
+    background-color:white;
+    margin-bottom:3%;
+}
+.profile_detail{
+    display:flex;
+    flex-wrap:nowrap;
+    height:5%;
+    width:100%;
+    justify-content:flex-start;
+    margin:10px;
+}
+.profile_detail strong{
+    align-self:center;
+    font-size: 14px;
+}
+.post .profile_pic{
+    border-radius: 50%;
+    width: 7%;
+    height: 70%;
+    padding:10px;
+}
+.post_pic{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+}
+.left_icon{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.right_icon{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    margin-right: 15px;
+    margin-top: 15px;
+    float:right;
+}
+.caption{
+    margin:10px;
+    padding:10px;
+    text-align:left;
+    font-size: 14px;
+}
+.caption hr{
+    color: rgba(224, 224, 224, 0.5);
+}
+.caption_id{
+    display:flex;
+    margin-right:10px;
+}
+.caption_id strong{
+    align-self:center;
+    margin-right:10px;
+}
+.caption .inactive{
+    color:#ccc;
+    margin-bottom:10px;
 }
 .sidebar{
     grid-area: 2 / 4 / 6 / 6;
