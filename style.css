@@ -154,6 +154,92 @@
     margin-bottom:10px;
 }
 
+.suggested{
+    margin:5%;
+    height:25rem;
+    width: 45rem;
+    background-color:white;
+    border-radius: 5px;
+    border-color:#ccc;
+}
+.celebs{
+    width:95%;
+    margin-left:5%;
+    overflow-x:scroll;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+.menu{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu strong{
+    color:#ccc;
+}
+.menu p{
+    color:dodgerblue;
+}
+.profile_card{
+    display:grid;
+    grid-template-columns: 15vw;
+    grid-template-rows: 35% 20% 20% 25%;
+    width:100%;
+    height:19rem;
+    margin:10px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+}
+.profile_card img{
+    width:4rem;
+    height:4rem;
+    object-fit:cover;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15%;
+}
+.profile_card .name{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+}
+.name img{
+    width: 30px;
+    height: 30px;
+    margin:0;
+    padding:0;
+    align-self:center;
+}
+.profile_card strong{
+    align-self:center;
+    justify-self:center;
+}
+.profile_card p{
+    font-size: 14px;
+    color:#ccc;
+    align-self:start;
+    margin-top:-5%;
+    justify-self:center;
+}
+.profile_card button{
+    background-color:dodgerblue;
+    color:white;
+    font-size:16px;
+    width: 70%;
+    height: 60%;
+    border-radius:5px;
+    justify-self:center;
+}
+
+
 .sidebar{
     grid-area: 2 / 4 / 3 / 6;
     background-color:#eaeaea;
@@ -196,7 +282,7 @@
     border-radius: 50%;
 }
 .boundary{
-    width: 70%;
+    width: 80%;
     margin-left: 1vw;
     display:flex;
     flex-direction:row;
