@@ -1,5 +1,5 @@
 # Starter files for Instagram Clone
 
-This repository provides blank HTML and CSS files, along with images to use for the Instagram Clone assignment.
+Shiyeon Monk.
 
-Before submitting, replace the text in this README file with your name and a brief description of your work (just a sentence or two will do).
+This is my copy of old instagram. All elements should be responsive including the repositioned sidebar under browser width: 1000px
